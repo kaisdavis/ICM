@@ -1,0 +1,26 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kurt Elster -- Design -- https://twitter.com/kurtinc
+    Jonathan Stark -- Development -- https://twitter.com/jonathanstark
+
+# THANKS
+
+    Kai Davis
+    Nick Disabato
+    Brennan Dunn
+    Julie Elster
+    Zack Gilbert
+    Jeremy Green
+    Mojca Mars
+    Philip Morgan
+    Travis Northcutt
+    Jane Portman
+    Michael Steele
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
