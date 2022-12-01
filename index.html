@@ -260,7 +260,7 @@
                     <li>
                         <div class="pricing-card" id="pricing-card-1">
                             <h3 class="pricing-name">Just the book</h3>
-                            <div class="pricing-amount" id="workbook-pricing-bottom">$49</div>
+                            <div class="pricing-amount" id="workbook-pricing-bottom"><s>$49</s> <b>Free!</b></div>
                             <div class="pricing-description">
                                 <p>Get your copy of the Independent Consulting Manual in PDF and ePub formats, plus free updates for life.</p>
                                 <p><a class="gum-workbook" href="https://kaidavis.gumroad.com/l/icm?wanted=true"><button class="btn btn-default">Add to Cart</button></a></p>
@@ -270,7 +270,7 @@
                     <li>
                         <div class="pricing-card" id="pricing-card-2">
                             <h3 class="pricing-name">Complete Bundle</h3>
-                            <div class="pricing-amount" id="complete-pricing-bottom">$119</div>
+                            <div class="pricing-amount" id="complete-pricing-bottom"><s>$119</s> <b>Free!</b></div>
                             <div class="pricing-description">
                                 <p>You’ll get...</p>
                                 <ul>
@@ -362,7 +362,7 @@
                     <li>
                         <div class="pricing-card" id="pricing-card-1">
                             <h3 class="pricing-name">Just the book</h3>
-                            <div class="pricing-amount" id="workbook-pricing-bottom">$49</div>
+                            <div class="pricing-amount" id="workbook-pricing-bottom"><s>$49</s> <b>Free!</b></div>
                             <div class="pricing-description">
                                 <p>Get your copy of the Independent Consulting Manual in PDF and ePub formats, plus free updates for life.</p>
                                 <p><a class="gum-workbook" href="https://kaidavis.gumroad.com/l/icm?wanted=true"><button class="btn btn-default">Add to Cart</button></a></p>
@@ -372,7 +372,7 @@
                     <li>
                         <div class="pricing-card" id="pricing-card-2">
                             <h3 class="pricing-name">Complete Bundle</h3>
-                            <div class="pricing-amount" id="complete-pricing-bottom">$119</div>
+                            <div class="pricing-amount" id="complete-pricing-bottom"><s>$119</s> <b>Free!</b></div>
                             <div class="pricing-description">
                                 <p>You’ll get...</p>
                                 <ul>
@@ -399,84 +399,6 @@
         <script src="js/vendor/jquery-2.1.0.min.js"></script>
         <script src="js/helper.js"></script>
         <script src="js/main.js"></script>
-
-         <!-- Coupon Code Script TODO Improve-->
-        <!-- <script>
-            /* Product Prices */
-            priceworkbook = 49;
-            pricecomplete = 119;
-            pricestrategy = 399;
-            workbook_slug = "uIwgr";
-            complete_slug = "RkaW";
-            strategy_slug = "BTdfx";
-            discount = "0"; // Default Discount
-            discount_percentage = 0;   // Default Discount Percentage
-            /* Grab the URL Parameter */
-            function getURLParameter(name) {
-                return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
-                }
-            coupon = getURLParameter('coupon'); // Set the coupon parameter
-            discount = getURLParameter('discount'); // Set the discount (to display)
-            discount_percentage = getURLParameter('discount'); // Set the discount percentage (for math)
-
-            // Let's set the discount
-
-        if (coupon == null) { // Do nothing if the coupon is blank!
-
-        }
-
-        else {
-            if (coupon === "brennandunn") { // Conditional for the Brennan coupon code
-            }
-
-            else if (coupon === "sidehustle") {
-                    document.getElementById("banner").style.display = "block";
-                    document.getElementById("disclaimer").innerHTML = "";
-                    discount = "20";
-                    discount_percentage = 20;
-                    affiliate_url = "https://gumroad.com/a/566375539/"
-                    gum_workbook = affiliate_url + workbook_slug + "/?wanted=true";
-                    gum_complete = affiliate_url + complete_slug + "/?wanted=true";
-                    gum_strategy = affiliate_url + strategy_slug + "/?wanted=true";
-                }
-
-            else {
-
-                if (coupon === "freelancingdigest") { // Conditional for the Freelancing Digest coupon code
-                    document.getElementById("banner").style.display = "block";
-                    discount = "30";
-                    discount_percentage = 30;
-                }
-
-                else {
-                    document.getElementById("banner").style.display = "block";
-                    discount = "20";
-                    discount_percentage = 20;
-                }
-                gum_workbook = "https://gum.co/icm-workbook/"+ coupon + "/?wanted=true";
-                gum_complete = "https://gum.co/icm-complete/"+ coupon + "/?wanted=true";
-                gum_strategy = "https://gum.co/icm-strategy/"+ coupon + "/?wanted=true";
-            }
-                var workbook = (1-discount_percentage/100) * priceworkbook;
-                var complete = (1-discount_percentage/100) * pricecomplete;
-                var strategy = (1-discount_percentage/100) * pricestrategy;
-                workbook = +workbook.toFixed(0);
-                complete = +complete.toFixed(0);
-                strategy = +strategy.toFixed(0);
-                document.getElementById("MyCode").innerHTML = coupon;
-                document.getElementById("MyDiscount").innerHTML = discount;
-                document.getElementById("strategy-pricing").innerHTML = "<em><s>"+pricestrategy+"</s>&nbsp;&nbsp;&nbsp;&nbsp;</em>$"+strategy;
-                document.getElementById("complete-pricing").innerHTML = "<em><s>"+pricecomplete+"</s>&nbsp;&nbsp;&nbsp;&nbsp;</em> $"+complete;
-                document.getElementById("workbook-pricing").innerHTML = "<em><s>"+priceworkbook+"</s>&nbsp;&nbsp;&nbsp;&nbsp;</em> $"+workbook;
-                document.getElementById("strategy-pricing-bottom").innerHTML = "<em><s>"+pricestrategy+"</s></em>&nbsp;&nbsp;&nbsp;&nbsp;$"+strategy;
-                document.getElementById("complete-pricing-bottom").innerHTML = "<em><s>"+pricecomplete+"</s></em>&nbsp;&nbsp;&nbsp;&nbsp;$"+complete;
-                document.getElementById("workbook-pricing-bottom").innerHTML = "<em><s>"+priceworkbook+"</s></em>&nbsp;&nbsp;&nbsp;&nbsp;$"+workbook;
-                $(".gum-workbook").attr("href", gum_workbook);
-                $(".gum-complete").attr("href", gum_complete);
-                $(".gum-strategy").attr("href", gum_strategy);
-        }
-        </script> -->
-        <!-- Product Prices -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
