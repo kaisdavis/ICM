@@ -180,7 +180,7 @@ a {
 }
 
 .btn {
-    cursor: pointer;
+    cursor: hand !important;
 }
 #pricing-card-2 .btn {
     background-color: #F98617;
